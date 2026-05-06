@@ -30,22 +30,21 @@ This project focuses on applying Object-Oriented Programming concepts, GUI devel
 ```text
 otodecks-dj-audio-player-cpp/
 ├── DJ App.jucer
-├── Source/
-│   ├── Main.cpp
-│   ├── MainComponent.cpp
-│   ├── MainComponent.h
-│   ├── DJAudioPlayer.cpp
-│   ├── DJAudioPlayer.h
-│   ├── DeckGUI.cpp
-│   ├── DeckGUI.h
-│   ├── PlaylistComponent.cpp
-│   ├── PlaylistComponent.h
-│   ├── WaveformDisplay.cpp
-│   ├── WaveformDisplay.h
-│   ├── MenuComponent.cpp
-│   ├── MenuComponent.h
-│   ├── ManagerComponent.cpp
-│   └── ManagerComponent.h
+├── Main.cpp
+├── MainComponent.cpp
+├── MainComponent.h
+├── DJAudioPlayer.cpp
+├── DJAudioPlayer.h
+├── DeckGUI.cpp
+├── DeckGUI.h
+├── PlaylistComponent.cpp
+├── PlaylistComponent.h
+├── WaveformDisplay.cpp
+├── WaveformDisplay.h
+├── MenuComponent.cpp
+├── MenuComponent.h
+├── ManagerComponent.cpp
+├── ManagerComponent.h
 └── README.md
 ```
 
