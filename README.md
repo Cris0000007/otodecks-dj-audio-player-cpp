@@ -4,7 +4,7 @@ A C++ DJ audio player application developed using the JUCE framework. This proje
 
 ## Project Overview
 
-OtoDecks is a desktop-based audio player application built with C++ and JUCE. The application allows users to load audio files, control playback, adjust audio settings, manage playlists, and view waveform displays.
+OtoDecks is a desktop-based audio player application built with C++ and JUCE. The application allows users to load audio files, control playback, adjust playback settings, manage playlists, and view waveform displays.
 
 This project focuses on applying Object-Oriented Programming concepts, GUI development, event handling, and audio application development.
 
@@ -30,8 +30,6 @@ This project focuses on applying Object-Oriented Programming concepts, GUI devel
 ```text
 otodecks-dj-audio-player-cpp/
 ├── DJ App.jucer
-├── JuceLibraryCode/
-├── modules/
 ├── Source/
 │   ├── Main.cpp
 │   ├── MainComponent.cpp
@@ -54,31 +52,36 @@ otodecks-dj-audio-player-cpp/
 ## Main Components
 
 - `DJAudioPlayer`  
-  Handles audio loading, playback, volume control, speed control, and position control.
+  Handles audio loading, playback, volume control, speed control, and playback position control.
 
 - `DeckGUI`  
-  Provides the user interface for each audio deck, including buttons, sliders, and waveform display.
+  Provides the user interface for each audio deck, including buttons, sliders, and waveform-related controls.
 
 - `PlaylistComponent`  
-  Manages the list of audio tracks and allows users to load tracks into the deck.
+  Manages the track list and allows users to organise and load audio files.
 
 - `WaveformDisplay`  
   Displays the waveform of the loaded audio track.
 
-- `MenuComponent` and `ManagerComponent`  
-  Support additional interface and application management functions.
+- `MenuComponent`  
+  Supports menu-related interface functions within the application.
+
+- `ManagerComponent`  
+  Helps manage the layout and coordination of application components.
 
 - `MainComponent`  
-  Combines the main interface components and controls the overall application layout.
+  Combines the main components and controls the overall application interface.
 
 ## How to Run
 
 This project requires the JUCE framework and a compatible C++ development environment.
 
-1. Open the `DJ App.jucer` file using Projucer.
-2. Export the project to an IDE such as Visual Studio or Xcode.
-3. Build and run the project from the IDE.
-4. Load an audio file and test the playback functions.
+1. Install JUCE and Projucer.
+2. Open `DJ App.jucer` using Projucer.
+3. Set the JUCE modules path if required.
+4. Save and export the project to Visual Studio or Xcode.
+5. Build and run the project from the IDE.
+6. Load an audio file to test the playback functions.
 
 ## What I Learned
 
@@ -89,8 +92,9 @@ Through this project, I practised:
 - Using the JUCE framework for audio and GUI development
 - Handling user interface events
 - Managing audio playback and playlist functions
+- Creating waveform display components
 - Debugging and testing application features
-- Organising source files in a structured project
+- Organising source files in a structured C++ project
 
 ## Possible Improvements
 
